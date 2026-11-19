@@ -1,0 +1,2 @@
+best_k = 2.5
+training F1 = 0.9750

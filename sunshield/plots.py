@@ -66,7 +66,7 @@ def plot_deviation_band(ax, g, raw_col, smooth_col, centre_col, sigma_col, flag_
     ax.axhline(0, color=GRID, linewidth=1)
     ax.set_ylabel('normalised deviation')
     ax.set_title(title, fontsize=10)
-    ax.legend(loc='lower left', fontsize=8)
+    ax.legend(loc='center right', fontsize=8)
 
 
 def plot_metrics_vs_k(ax, table, split_name, best_k=None):
