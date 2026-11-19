@@ -1,0 +1,9 @@
+{
+  "best_window": 8,
+  "best_k": 3.0,
+  "f1": {
+    "Training": 0.9656,
+    "Validation": 0.9593,
+    "Testing": 0.9717
+  }
+}
