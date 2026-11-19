@@ -1,0 +1,6 @@
+k,new ground truth: anomalies,also in previous ground truth,share,"outage readings (0 kW, expected > 0)",outage readings in previous ground truth
+1.0,8363,2839,0.339,3834,453
+1.5,6548,1750,0.267,3825,376
+2.0,5851,1268,0.217,3820,323
+2.5,5441,889,0.163,3800,276
+3.0,5109,611,0.12,3779,242
