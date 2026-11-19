@@ -1,0 +1,4 @@
+Split,rows,evaluated rows,actual anomalies,predicted anomalies
+Training,36491,24170,3481,4076
+Validation,11968,7458,827,1070
+Testing,10758,6930,812,936

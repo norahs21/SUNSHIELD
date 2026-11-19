@@ -1,0 +1,5 @@
+,value
+plant-2 readings > 120 % of the neighbours' median,890.0
+median no. of plant-2 inverters down at those moments,8.0
+median no. of plant-2 inverters down at other moments,0.0
+median actual / LSTM (healthy) for those readings,1.045

@@ -1,0 +1,10 @@
+Split,Line,k,peer-confirmed outage readings,flagged,share flagged
+Training,Actual 0/1 (ground truth),3.0,2093,2089,0.998
+Training,LSTM healthy only (main),3.0,2093,2093,1.0
+Training,LSTM all readings,2.5,2093,1757,0.839
+Validation,Actual 0/1 (ground truth),3.0,429,429,1.0
+Validation,LSTM healthy only (main),3.0,429,429,1.0
+Validation,LSTM all readings,2.5,429,316,0.737
+Testing,Actual 0/1 (ground truth),3.0,455,455,1.0
+Testing,LSTM healthy only (main),3.0,455,454,0.998
+Testing,LSTM all readings,2.5,455,435,0.956

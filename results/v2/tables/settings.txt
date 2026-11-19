@@ -1,0 +1,4 @@
+best_W = 48
+GAMMA = -0.0047
+IRR_MIN = 0.2
+HEALTH_K = 3.0
