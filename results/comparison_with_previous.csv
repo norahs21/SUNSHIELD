@@ -1,8 +1,8 @@
 Detector,best k,Training F1,Validation F1,Testing F1,Testing precision,Testing recall
-A. Previous definition on the predicted line,1.0,0.2198,0.2402,0.2901,0.1997,0.5301
-"B. Residual in kW, mean ± k·std",1.5,0.5716,0.5891,0.612,0.6548,0.5744
-"C. Normalised residual, robust σ",3.0,0.7278,0.721,0.7529,0.6533,0.8883
-D. C + 1-hour smoothing,3.0,0.8181,0.7776,0.8243,0.7011,1.0
-E. Final (D + σ minimum 10 %),2.5,0.975,0.9717,0.9689,0.9567,0.9815
-"F. Final rule, LSTM trained on all readings",3.0,0.6321,0.6601,0.6628,0.5398,0.8583
-"G. Final rule, physical formula instead of LSTM",2.5,0.9608,0.9641,0.9585,0.9615,0.9556
+A. Previous definition (LSTM line alone),1.0,0.2067,0.28,0.3241,0.2298,0.5494
+"B. Residual in kW, mean ± k·std",1.5,0.5624,0.5824,0.5777,0.64,0.5265
+"C. Relative residual, robust σ",3.0,0.7181,0.7348,0.7618,0.6634,0.8945
+D. C + 1-hour smoothing,3.0,0.8213,0.8064,0.8412,0.7281,0.996
+E. Final (D + σ minimum 10 %),3.0,0.9656,0.9593,0.9717,0.971,0.9723
+"F. Final rule, LSTM trained on all readings",3.0,0.6429,0.662,0.6587,0.5433,0.8364
+"G. Final rule, physical formula instead of LSTM",2.5,0.9558,0.9587,0.96,0.975,0.9455
