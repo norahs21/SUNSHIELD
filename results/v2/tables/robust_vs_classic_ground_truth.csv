@@ -1,0 +1,4 @@
+,"median / MAD, k = 3 (main)","mean / std, k = 1.5"
+test readings in Actual 0/1,812,650
+… of the 455 outage readings,455,362
+"… of the 356 partial-loss readings (< 80 % of PVWatts, not an outage)",276,111

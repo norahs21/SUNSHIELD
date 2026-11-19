@@ -1,0 +1,10 @@
+Definition,best k,Split,F1,outage readings,in Actual 0/1,found by Predicted 0/1
+Rule 1: change from previous reading (each line alone),1.0,Training,0.6204,2093,164,239
+Rule 1: change from previous reading (each line alone),1.0,Validation,0.6304,429,40,125
+Rule 1: change from previous reading (each line alone),1.0,Testing,0.7315,455,40,130
+Rule 2: usual power at this time of day (each line alone),1.0,Training,0.6461,2093,1304,302
+Rule 2: usual power at this time of day (each line alone),1.0,Validation,0.6868,429,253,50
+Rule 2: usual power at this time of day (each line alone),1.0,Testing,0.5925,455,401,178
+NEW: actual − expected power (PVWatts / LSTM healthy),3.0,Training,0.9059,2093,2089,2093
+NEW: actual − expected power (PVWatts / LSTM healthy),3.0,Validation,0.8698,429,429,429
+NEW: actual − expected power (PVWatts / LSTM healthy),3.0,Testing,0.913,455,455,454

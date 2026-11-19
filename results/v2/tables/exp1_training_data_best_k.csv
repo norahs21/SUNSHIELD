@@ -1,0 +1,7 @@
+k,TP,FP,FN,TN,Precision,Recall,F1,LSTM trained on,Split
+3.0,3423,653,58,20036,0.8398,0.9833,0.9059,Healthy readings only (main),Training
+3.0,825,245,2,6386,0.771,0.9976,0.8698,Healthy readings only (main),Validation
+3.0,798,138,14,5980,0.8526,0.9828,0.913,Healthy readings only (main),Testing
+2.5,2639,866,1237,19428,0.7529,0.6809,0.7151,"All readings, faults included",Training
+2.5,558,166,377,6357,0.7707,0.5968,0.6727,"All readings, faults included",Validation
+2.5,665,84,231,5950,0.8879,0.7422,0.8085,"All readings, faults included",Testing
