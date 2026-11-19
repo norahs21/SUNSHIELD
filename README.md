@@ -56,7 +56,7 @@ Best k chosen on **training only**: **k = 3** (training F1 0.966). LSTM window: 
 
 ## Method in short
 
-The method, with the research behind each step, is explained in the method document shared with the team.
+The method, with the research behind each step, is explained (in Arabic) in `docs/SUNSHIELD_method.pdf` / `docs/SUNSHIELD_method.docx`.
 
 | Step | What | Why |
 |---|---|---|
@@ -83,6 +83,7 @@ The method, with the research behind each step, is explained in the method docum
 data/raw/                  the 4 Kaggle CSV files
 notebooks/SUNSHIELD.ipynb  the whole pipeline (Parts 1–5)
 results/                   final tables, figures and final_files.zip (the 6 result files)
+docs/                      method document with the research behind each step (PDF and Word)
 ```
 
 ## References
