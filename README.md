@@ -83,7 +83,7 @@ The method, with the research behind each step, is explained (in Arabic) in `doc
 data/raw/                  the 4 Kaggle CSV files
 notebooks/SUNSHIELD.ipynb  the whole pipeline (Parts 1–5)
 results/                   final tables, figures and final_files.zip (the 6 result files)
-docs/                      method document with the research behind each step (PDF and Word)
+docs/                      method document (Arabic, PDF and Word) + short English summary of the additions and references
 ```
 
 ## References
