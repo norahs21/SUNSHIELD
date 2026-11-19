@@ -1,0 +1,4 @@
+Split,F1 (drops only),Precision (drops only),Recall (drops only),events,events found,event recall
+Training,0.9793,0.9706,0.9881,427,416,0.9742
+Validation,0.9717,0.9498,0.9946,115,115,1.0
+Testing,0.9689,0.9567,0.9815,117,115,0.9829
